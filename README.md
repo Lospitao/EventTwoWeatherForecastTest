@@ -21,7 +21,7 @@ La prueba se puede subir a GitHub o enviarse por mail en un zip, junto con instr
 2. ejecutar composer install para instalar la librería de www.theweatherapi.com
 3. inicializar el servidor de symfony con el comando symfony server:start y cambiar el parámetro 'API_HOST' en el archivo .env de acuerdo con el localhost que estemos utilizando. 
 ## Instrucciones
-La ruta del índice de la página es /forecast_index.
+La ruta del índice de la página es /.
 1. En el input "city" introduciremos al menos tres letras del nombre de la ciudad cuya predicción meteorológica queremos encontrar, lo que nos arrojará una serie
 de sugerencias
 2. Al pinchar en cualquiera de las sugerencias, se nos devolverá la predicción de los próximos tres días (fecha, temperatura máxima, temperatura mínima, estado 
