@@ -9,7 +9,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class ForecastIndexController extends AbstractController
 {
     /**
-     * @Route("/forecast_index", name="forecast_index")
+     * @Route("/", name="forecast_index")
      */
     public function index(): Response
     {
